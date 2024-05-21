@@ -1,0 +1,1 @@
+Namespace(bug_id='Lang-1', uniapr=False, output_folder='codebert_result', skip_v=False, re_rank=True, beam_width=1, perfect=True, top_n_patches=-1)
