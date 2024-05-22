@@ -1,6 +1,6 @@
 # Running AlphaRepair on Defects4J
 
-## Download AlphaRepair's Replication Package
+## Downloading AlphaRepair's Replication Package
 
 [AlphaRepair's replication package](https://zenodo.org/records/6819444)
 is on Zenodo. I have already downloaded Version 2 and
@@ -38,7 +38,7 @@ as described in step 3 of Defects4J's installation process:
 
 >   - `export PATH=$PATH:"path2defects4j"/framework/bin`
 
-## Python Environment Dependencies
+## Creating Python Environment
 
 AlphaRepair is a Python project. However, its replication
 package does not include information about
@@ -113,3 +113,29 @@ command:
 ```bash
 python experiment.py --bug_id Lang-1 --re_rank --beam_width 25 --perfect --top_n_patches -1
 ```
+
+## Attribution
+
+The original authors of AlphaRepair are 
+Chunqiu Steven Xia and Lingming Zhang.
+The tool was presented in the paper
+["Less training, more repairing please: 
+revisiting automated program repair via 
+zero-shot learning"](https://dl.acm.org/doi/abs/10.1145/3540250.3549101)
+at ESEC/FSE 2022.
+
+The source code and related materials are
+available on [Zenodo](https://zenodo.org/records/6819444).
+
+This repository is a replication package of their 
+work. I have added additional documentation to make it
+easier for users to use the tool.
+
+## License
+
+The original work is licensed under the [Creative Commons
+Attribution 4.0 International 
+(CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/legalcode) 
+license. You can find the full license
+text in the [LICENSE](LICENSE) file 
+in this repository.
