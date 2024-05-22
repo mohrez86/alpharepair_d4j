@@ -13,19 +13,30 @@ The `correct_patches.zip` file is not needed for this setup.
 AlphaRepair is a dynamic analysis tool written in Python.
 It needs Defects4J to run tests and to validate patches.
 So, you need to install Defects4J on your machine.
-The original version of the replication package is developed
-to work with Defects4j versions 1.2 and 2.0.
+AlphaRepair's replication package is developed
+to work with Defects4J versions 1.2 and 2.0.
 I recommend using version 1.2 as the current replication
 package of AlphaRepair includes fault localization
 information only for subjects 
-in Defects4j version 1.2 (see [the location directory](location)).
+in Defects4J version 1.2 (see [the location directory](location)).
 
 To install Defects4J 1.2 on your machine, follow
 the instructions provided
-[here](https://github.com/rjust/defects4j/tree/v1.2.0).
-Do not forget to checkout the correct repo version, and
-make sure to add Defects4J's executables to your PATH
-as described in step 3 of Defects4J's installation process.
+[here](https://github.com/rjust/defects4j/tree/v1.2.0?tab=readme-ov-file#setting-up-defects4j).
+Do not forget to checkout the correct repository version after cloning:
+
+```bash
+git clone git@github.com:rjust/defects4j.git
+cd defects4j
+git checkout tags/v1.2.0
+```
+
+Also, make sure to add Defects4J's executables to your PATH
+as described in step 3 of Defects4J's installation process:
+
+>3. Add Defects4J's executables to your PATH:
+
+>   - `export PATH=$PATH:"path2defects4j"/framework/bin`
 
 ## Python Environment Dependencies
 
@@ -100,5 +111,5 @@ For example, to run AlphaRepair on bug Lang-1, use the following
 command:
 
 ```bash
-python experiment.py --bug_id Lang-1 --re_rank --beam_width 1 --perfect --top_n_patches -1
+python experiment.py --bug_id Lang-1 --re_rank --beam_width 25 --perfect --top_n_patches -1
 ```
