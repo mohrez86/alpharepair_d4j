@@ -1,4 +1,22 @@
-# Running AlphaRepair on Defects4J
+# AlphaRepair Setup and Usage Guide
+
+## Table of Contents
+- [Prerequisites](#prerequisites)
+- [Downloading AlphaRepair's Replication Package](#downloading-alpharepairs-replication-package)
+- [Installing Defects4J](#installing-defects4j)
+- [Creating Python Environment](#creating-python-environment)
+- [Running AlphaRepair](#running-alpharepair)
+- [Attribution](#attribution)
+- [License](#license)
+- [Contact Information](#contact-information)
+
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+- **Operating System**: The setup has been tested on Ubuntu 22.04.4 LTS.
+- **Python**: Version 3.11 (other versions may work but have not been tested).
+- **Conda**: For creating and managing the Python environment.
+- **Git**: For cloning the Defects4J repository.
 
 ## Downloading AlphaRepair's Replication Package
 
@@ -139,3 +157,10 @@ Attribution 4.0 International
 license. You can find the full license
 text in the [LICENSE](LICENSE) file 
 in this repository.
+
+## Contact Information
+
+If you have any questions or need further assistance, 
+you can reach me at:
+- **Email**: [rezaalipour.mohammad@gmail.com](mailto:rezaalipour.mohammad@gmail.com)
+- **GitHub Issues**: [Create an issue](https://github.com/mohrez86/alpharepair_d4j/issues)
