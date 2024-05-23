@@ -14,9 +14,8 @@
 
 Before you begin, ensure you have met the following requirements:
 - **Operating System**: The setup has been tested on Ubuntu 22.04.4 LTS.
-- **Python**: Version 3.11 (other versions may work but have not been tested).
-- **Conda**: For creating and managing the Python environment.
-- **Git**: For cloning the Defects4J repository.
+- **[Anaconda](https://www.anaconda.com)**: For creating and managing the Python environment.
+- **[Git](https://git-scm.com/)**: For cloning the Defects4J repository.
 
 ## Downloading AlphaRepair's Replication Package
 
